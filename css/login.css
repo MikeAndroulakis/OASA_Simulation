@@ -1,0 +1,57 @@
+form{
+    width:500px;
+    margin: 2px auto 5px auto;
+    padding-top:1px;
+}
+
+label{
+  font-size: large;
+}
+
+input[type=password],input[type=email]{
+    width: 94%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    font-size: large;
+    background: #f1f1f1;
+  }
+  
+input[type=password]:focus ,input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .cancelbtn{
+    color: white;
+    background-color:rgb(66, 117, 129);
+  }
+
+  .submit{
+    background-color:rgb(24, 85, 197);
+    color: white;
+    float: right;
+  }
+
+  button {
+    padding: 11px 30px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline;
+    font-size: 20px;
+  }
+
+  #signInErrorMessage {
+    text-align: center;
+    background-color: #F2DEDE;
+    color:#AF504E;
+    width:53%;
+    margin-left:25%;
+    margin-right:10%;
+    border-radius: 2px;
+    margin-top:15px;
+    margin-bottom:15px;
+  }

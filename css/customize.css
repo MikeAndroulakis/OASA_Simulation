@@ -1,0 +1,72 @@
+form{
+  width:500px;
+  margin: 2px auto 5px auto;
+  padding-top:1px;
+  text-align: center;
+}
+
+label{
+font-size: large;
+}
+
+textarea[type=text], textarea[type=password] ,textarea[type=number],textarea[type=email],input[type=date]{
+  width: 93%;
+  padding: 15px;
+  height: 30px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: large;
+  resize: none;
+  text-align: center;
+  font-family: Arial
+  }
+  
+  textarea[type=text]:focus, textarea[type=password]:focus ,textarea[type=number]:focus,textarea[type=email]:focus,input[type=date]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+
+ input[type=password],input[type=date] {
+   text-align: center;
+  width: 93%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: large;
+  }
+  
+  input[type=password]:focus,input[type=date]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .cancelbtn{
+    color: white;
+    background-color:rgb(66, 117, 160);
+    float: left;
+    padding: 11px 40px;
+    margin: 8px 0;
+  }
+  
+  .submit{
+    background-color:rgb(24, 85, 197);
+    color: white;
+    float: right;
+    padding: 11px 50px;
+    margin: 8px 0;
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline;
+    font-size: 20px;
+    background-color:rgb(24, 85, 197);
+  }
+
+  

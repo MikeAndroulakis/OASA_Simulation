@@ -1,0 +1,40 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 150px;
+  }
+  
+  td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+    font-size: x-large;
+    padding-right: 1000px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  button {
+    padding: 11px 30px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline;
+    font-size: 20px;
+  }
+
+  .cancelbtn{
+    background-color:rgb(66, 117, 160);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
